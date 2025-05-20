@@ -10,15 +10,25 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.2",
+    "@reduxjs/toolkit": "^2.7.0",
     "@tailwindcss/vite": "^4.0.9",
     "aos": "^2.3.4",
     "axios": "^1.8.1",
     "chartjs": "^0.3.24",
+    "firebase": "^11.6.1",
+    "framer-motion": "^12.10.5",
     "lucide-react": "^0.477.0",
     "react": "^19.0.0",
+    "react-countup": "^6.5.3",
+    "react-currency-input-field": "^3.10.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^7.2.0",
+    "react-toastify": "^11.0.5",
+    "recharts": "^2.15.3",
+    "run": "^1.5.0",
     "tailwindcss": "^4.0.9"
   },
   "devDependencies": {
