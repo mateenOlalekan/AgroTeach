@@ -23,7 +23,7 @@ function Footer() {
     <>
 
 
-      <footer className="relative overflow-hidden bg-gradient-to-br from-green-400 via-green-900 to-green-600">
+      <footer className="relative overflow-hidden bg-gradient-to-br from-green-400 via-green-800 to-green-600">
         {/* Animated Background Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-0 left-1/4 w-96 h-96 bg-green-500/10 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
@@ -92,21 +92,21 @@ function Footer() {
                 </span>
               </div>
               
-              <p className="text-gray-300 text-lg mb-6 leading-relaxed max-w-md">
+              <p className="text-white text-lg mb-6 leading-relaxed max-w-md">
                 Revolutionizing digital payments with secure, fast, and reliable financial solutions for individuals and businesses worldwide.
               </p>
 
               {/* Contact Info */}
               <div className="space-y-3 mb-6">
-                <div className="flex items-center text-gray-300">
+                <div className="flex items-center text-white">
                   <Phone className="h-4 w-4 mr-3 text-green-400" />
                   <span>+234 (0) 123 456 7890</span>
                 </div>
-                <div className="flex items-center text-gray-300">
+                <div className="flex items-center text-white">
                   <Mail className="h-4 w-4 mr-3 text-green-400" />
                   <span>support@swiftpay.com</span>
                 </div>
-                <div className="flex items-center text-gray-300">
+                <div className="flex items-center text-white">
                   <MapPin className="h-4 w-4 mr-3 text-green-400" />
                   <span>Lagos, Nigeria</span>
                 </div>
@@ -120,7 +120,7 @@ function Footer() {
                   aria-label="Facebook"
                 >
                   <div className="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center hover:bg-green-600 hover:border-green-600 transition-all transform group-hover:scale-110">
-                    <Facebook size={18} className="text-gray-300 group-hover:text-white" />
+                    <Facebook size={18} className="text-white group-hover:text-white" />
                   </div>
                 </a>
                 <a 
@@ -129,7 +129,7 @@ function Footer() {
                   aria-label="LinkedIn"
                 >
                   <div className="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center hover:bg-green-600 hover:border-green-600 transition-all transform group-hover:scale-110">
-                    <Linkedin size={18} className="text-gray-300 group-hover:text-white" />
+                    <Linkedin size={18} className="text-white group-hover:text-white" />
                   </div>
                 </a>
                 <a 
@@ -138,7 +138,7 @@ function Footer() {
                   aria-label="Twitter"
                 >
                   <div className="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center hover:bg-green-600 hover:border-green-600 transition-all transform group-hover:scale-110">
-                    <Twitter size={18} className="text-gray-300 group-hover:text-white" />
+                    <Twitter size={18} className="text-white group-hover:text-white" />
                   </div>
                 </a>
               </div>
@@ -148,11 +148,11 @@ function Footer() {
             <div>
               <h3 className="font-bold mb-6 text-xl text-white border-b border-green-600 pb-2">Company</h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">About Us</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Careers</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">News & Blog</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Investor Relations</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Partnerships</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">About Us</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Careers</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">News & Blog</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Investor Relations</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Partnerships</a></li>
               </ul>
             </div>
             
@@ -160,11 +160,11 @@ function Footer() {
             <div>
               <h3 className="font-bold mb-6 text-xl text-white border-b border-green-600 pb-2">Products</h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Personal Cards</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Business Solutions</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">International Transfers</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Currency Exchange</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Savings & Investment</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Personal Cards</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Business Solutions</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">International Transfers</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Currency Exchange</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Savings & Investment</a></li>
               </ul>
             </div>
             
@@ -172,11 +172,11 @@ function Footer() {
             <div>
               <h3 className="font-bold mb-6 text-xl text-white border-b border-green-600 pb-2">Support</h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Help Center</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Contact Support</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">API Documentation</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">System Status</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Security</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Help Center</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Contact Support</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">API Documentation</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">System Status</a></li>
+                <li><a href="#" className="text-white hover:text-green-400 transition-colors hover:translate-x-1 transform inline-block">Security</a></li>
               </ul>
             </div>
           </div>
